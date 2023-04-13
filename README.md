@@ -59,8 +59,8 @@ npm run lint
 
 #### 包的结构
 ```
- +- inc
-     +- inc-admin
+ +- inc -- 整个项目
+     +- inc-admin -- 后端
          +- src
          |   +- main
          |   |    +- java
@@ -102,7 +102,7 @@ npm run lint
          +- inc.sql
          +- inc-admin.iml
          +- pom.xml
-     +- inc-view
+     +- inc-view -- 前端
          +- .vscode
          +- build
          +- config
@@ -135,7 +135,7 @@ npm run lint
      +- pom.xml --
      +- README.md -- 项目的相关信息文档
      +- 系统安装部署文档V1.docx
- mybatis-generator-core
+ +- mybatis-generator-core -- 生成代码
 ```
 #### 登录账户
 用户名：admin
