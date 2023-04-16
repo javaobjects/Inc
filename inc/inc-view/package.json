@@ -2,7 +2,7 @@
   "name": "inc-view",
   "version": "1.2.0",
   "description": "A Vue.js project for admin",
-  "author": "64301325@qq.com",
+  "author": "511948469@qq.com",
   "private": true,
   "scripts": {
     "server": "node server/bin/www",
