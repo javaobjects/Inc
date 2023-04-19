@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * 图书实体类
  * 
- * @author tanzibiao
+ * @author xianxian
  * @date 2021/06/13
  *
  * @mbg.generated 2021/06/13

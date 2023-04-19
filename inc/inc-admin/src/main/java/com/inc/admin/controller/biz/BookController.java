@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 /**
  * 图书管理 控制器
- * @author tanzibiao
+ * @author xianxian
  * @date 2021-12-11 01:34:36
 */
 @RestController

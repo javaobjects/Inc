@@ -6,7 +6,7 @@ import com.inc.admin.domain.sys.BaseEntity;
  * 
  * 表名：book
  * 图书
- * @author tanzibiao
+ * @author xianxian
  * @date 2021-12-11 01:34:35
  */
 public class Book extends BaseEntity {

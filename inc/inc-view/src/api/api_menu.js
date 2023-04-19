@@ -1,6 +1,6 @@
 /**
  * 菜单相关的api
- * @author inc 1992lcg@163.com
+ * @author xianxian
  */
 import * as API from './'
 
