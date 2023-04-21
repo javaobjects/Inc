@@ -232,6 +232,13 @@ npm run build
 ```
 npm run lint
 ```
++ 如下图所示
+
+![](./inc/readme/1.png)
+![](./inc/readme/2.png)
+![](./inc/readme/3.png)
+![](./inc/readme/4.png)
+![](./inc/readme/5.png)
 
 #### 登录账户
 用户名：admin
