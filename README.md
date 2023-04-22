@@ -250,7 +250,13 @@ npm run lint
 ![角色管理](./inc/readme/角色管理.png)
 ![系统菜单](./inc/readme/系统菜单.png)
 
-### 拓展知识
+##### 项目中需要说明的关键技术点
+
+1. 此项目中前端是如何跳转页面的？
+2. 此项目中前端是如何获取后端的数据接口实现通信的？
+3. 此项目中后端是如何给前端提交数据接口实现数据通信的？
+
+#### 拓展知识
 
 1. [什么是utf8mb4和utf8mb3区别？](https://blog.csdn.net/BLWY_1124/article/details/126093478)
 2. [MySQL几种编码格式的区别（utf8、utf8mb4、utf8mb4_general_ci、utf8mb4_unicode_ci 、utf8mb4_0900_ai_ci）](https://cloud.tencent.com/developer/article/1872879)
