@@ -1,12 +1,12 @@
 /**
- * Created by tzb.
+ * Created by xianxian.
  */
 import axios from 'axios'
 import store from "../vuex/store";
 import {Message} from 'element-ui';
 import {bus} from '../bus.js'
 
-axios.defaults.withCredentials = true;
+axios.defaults.withCredentials = true;//允许跨域请求发送凭据信息（例如cookie和HTTP认证）
 
 //添加一个请求拦截器
 axios.interceptors.request.use(

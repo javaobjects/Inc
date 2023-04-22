@@ -38,16 +38,16 @@ Vue.directive('has', {
   }
 });
 //权限检查方法
-Vue.prototype.$_has = function(value) {
-  let isExist=false;
-  let buttonpermsStr=localStorage.getItem("perms");
-  if(buttonpermsStr==undefined || buttonpermsStr==null){
+Vue.prototype.$_has = function (value) {
+  let isExist = false;
+  let buttonpermsStr = localStorage.getItem("perms");
+  if (buttonpermsStr == undefined || buttonpermsStr == null) {
     return false;
   }
-  let buttonperms=JSON.parse(buttonpermsStr);
-  for(let i=0;i<buttonperms.length;i++){
-    if(buttonperms[i].perms.indexOf(value)>-1){
-      isExist=true;
+  let buttonperms = JSON.parse(buttonpermsStr);
+  for (let i = 0; i < buttonperms.length; i++) {
+    if (buttonperms[i].perms.indexOf(value) > -1) {
+      isExist = true;
       break;
     }
   }

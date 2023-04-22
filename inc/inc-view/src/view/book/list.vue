@@ -44,7 +44,7 @@
         <el-table-column prop="name" label="书名"></el-table-column>
         <el-table-column prop="status" label="状态"></el-table-column>
         <el-table-column prop="user" label="借书人"></el-table-column>
-        <el-table-column prop="del" label="是否删除"></el-table-column>
+        <el-table-column prop="del" label="是否删除" v-if="false"></el-table-column>
         <el-table-column label="操作" width="150">
           <template slot-scope="scope">
             <addForm :call="search" :data="scope.row" size="mini" title="编辑"/>

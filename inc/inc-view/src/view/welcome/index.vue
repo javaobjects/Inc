@@ -6,11 +6,10 @@
         mode="horizontal"
         active-text-color="#409EFF">
         <el-menu-item index="1">首页</el-menu-item>
-        <el-menu-item index="4" style="float: right"><a href="http://inc.com" target="_blank">关于作者</a></el-menu-item>
-        <el-menu-item index="3" style="float: right"><a href="/">inc开源项目</a>
+        <el-menu-item index="4" style="float: right"><a href="#">关于作者</a></el-menu-item>
+        <el-menu-item index="3" style="float: right"><a href="#">inc开源项目</a>
         </el-menu-item>
-        <el-menu-item index="2" style="float: right"><a
-          href="http://inc.com">inc开源项目</a></el-menu-item>
+        <el-menu-item index="2" style="float: right"><a href="#">inc开源项目</a></el-menu-item>
       </el-menu>
     </el-header>
     <el-main id="content" >
@@ -23,8 +22,8 @@
                 <h2>
                   基于springboot的开源框架<br>单体项目急速开发利器
                 </h2>
-                <el-button round><a href="https://gitee.com/lcg0124/inc/wikis/Home">起步</a></el-button>
-                <el-button round><a href="https://gitee.com/lcg0124/inc">源码</a></el-button>
+                <el-button round><a href="#">起步</a></el-button>
+                <el-button round><a href="https://github.com/javaobjects/Inc">源码</a></el-button>
               </div>
             </el-col>
           </el-row>
