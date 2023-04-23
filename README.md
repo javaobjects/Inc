@@ -250,7 +250,7 @@ npm run lint
 ![角色管理](./inc/readme/角色管理.png)
 ![系统菜单](./inc/readme/系统菜单.png)
 
-##### 项目中需要说明的关键技术点
+#### 项目中需要说明的关键技术点
 
 + 在inc-view项目中index.html是所有页面的html,Home.vue是html中ID为app的DIV的所有内容里面包含头部左侧以及内容三大部分组成，其所有的组件均在view文件夹中
 
