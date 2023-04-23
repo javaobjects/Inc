@@ -29,7 +29,7 @@
       </div>
     </el-col>
 
-    <!--中间-->
+    <!--头部以下的所有内容-->
     <el-col :span="24" class="main">
       <!--左侧导航-->
       <aside :class="{showSidebar:!collapsed}">
@@ -68,8 +68,6 @@
           </template>
         </el-menu>
       </aside>
-
-      <!--右侧内容区-->
       <!--右侧内容区-->
       <section
         class="content-container"

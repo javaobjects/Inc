@@ -252,8 +252,12 @@ npm run lint
 
 ##### 项目中需要说明的关键技术点
 
++ 在inc-view项目中index.html是所有页面的html,Home.vue是html中ID为app的DIV的所有内容里面包含头部左侧以及内容三大部分组成，其所有的组件均在view文件夹中
+
 1. 此项目中前端是如何跳转页面的？
++ 通过router文件夹里的index.js配置实现与home.vue里的router-view元素相关联
 2. 此项目中前端是如何获取后端的数据接口实现通信的？
++ 通过api文件夹里的各种上js以及各个组件中引入而后进行前后端数据通信的
 3. 此项目中后端是如何给前端提交数据接口实现数据通信的？
 
 #### 拓展知识
@@ -279,3 +283,6 @@ npm run lint
 19. [项目框架搭建二-前端（HTML，CSS，JavaScript，JQuery，AngularJS，Bootstrap，NodeJS，React，Vue）](https://blog.csdn.net/weixin_42426099/article/details/104102410)
 20. [jquery和vue哪个简单(jquery和vue有什么区别)](https://www.shouxicto.com/article/127808.html)
 21. [ElementUI的el-table怎样隐藏某一列](https://blog.csdn.net/BADAO_LIUMANG_QIZHI/article/details/107671407)
+22. [HTML，css，js，vue的简单介绍](https://blog.csdn.net/Fengkx518/article/details/122473012)
+23. [vue 项目html 与js,什么是VUE?VUE与JS的对比](https://blog.csdn.net/weixin_31509753/article/details/117944343)
+24. [vue和js区别是什么](https://m.php.cn/article/472327.html)

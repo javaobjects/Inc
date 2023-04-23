@@ -12,7 +12,7 @@ import Book from '@/view/book/list'
 
 
 // 懒加载方式，当路由被访问的时候才加载对应组件
-const Login = resolve => require(['@/view/Login'], resolve)
+const Login = resolve => require(['@/view/Login'], resolve) //将Login组件异步加载进来，并将这个组件作为参数传递给resolve函数
 
 Vue.use(Router)
 
@@ -111,20 +111,27 @@ let router = new Router({
   ]
 })
 
+/**
+ * 如果用户要跳转到登录页（path以/login开头），则移除本地存储中的access-token并直接跳转。
+ *
+ * 如果用户要跳转到首页（path以/index开头），则直接跳转。
+ *
+ * 如果用户要跳转到其他页面，则会先获取本地存储中的access-token，如果存在，则直接跳转，如果不存在，则跳转到登录页。
+ */
 router.beforeEach((to, from, next) => {
   if (to.path.startsWith('/login')) {
-    window.localStorage.removeItem('access-token')
+    window.localStorage.removeItem('access-token');
     //window.localStorage.removeItem('access-user')
-    next()
+    next();
   } else if (to.path.startsWith('/index')) {
-    next()
+    next();
   } else {
     //let user = JSON.parse(window.localStorage.getItem('access-token'))
     let user = window.localStorage.getItem('access-token');
     if (!user) {
-      next({path: '/login'})
+      next({path: '/login'});
     } else {
-      next()
+      next();
     }
   }
 })
