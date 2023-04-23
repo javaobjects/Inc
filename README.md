@@ -274,7 +274,8 @@ npm run lint
 2. 此项目中前端是如何获取后端的数据接口实现通信的？
 + 通过api文件夹里的各种上js以及各个组件中引入而后进行前后端数据通信的
 3. 此项目中后端是如何给前端提交数据接口实现数据通信的？
-
++ 在 Spring Boot 中，控制器(Controller)处理 HTTP 请求，服务(Service)处理业务逻辑，数据访问对象(DAO)与数据库进行交互，而 Mapper 是 Mybatis 框架用于操作数据库的接口 总结出以下调用关系：
+  Controller --> Service --> DAO --> Mapper.xml
 #### 拓展知识
 
 1. [什么是utf8mb4和utf8mb3区别？](https://blog.csdn.net/BLWY_1124/article/details/126093478)

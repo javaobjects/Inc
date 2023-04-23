@@ -3,7 +3,7 @@ package com.inc.admin.dto.sys;
 import java.io.Serializable;
 
 /**
- * @author 64301325@qq.com
+ * @author xianxian
  * @version V1.0
  */
 public class UserToken implements Serializable{

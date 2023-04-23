@@ -3,7 +3,7 @@ package com.inc.admin.service.sys;
 import org.springframework.stereotype.Service;
 
 /**
- * @author 64301325@qq.com
+ * @author xianxian
  */
 @Service
 public interface TokenService {

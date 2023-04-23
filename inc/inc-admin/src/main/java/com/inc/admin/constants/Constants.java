@@ -1,7 +1,7 @@
 package com.inc.admin.constants;
 
 /**
- * @author 64301325@qq.com
+ * @author xianxian
  * @version V1.0
  */
 public class Constants {

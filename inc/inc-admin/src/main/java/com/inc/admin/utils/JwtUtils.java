@@ -9,7 +9,7 @@ import io.jsonwebtoken.SignatureAlgorithm;
 import java.util.Date;
 
 /**
- * @author 64301325@qq.com
+ * @author xianxian
  * @version V1.0
  */
 public class JwtUtils {

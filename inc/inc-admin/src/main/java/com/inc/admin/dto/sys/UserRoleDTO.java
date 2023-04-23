@@ -2,7 +2,7 @@ package com.inc.admin.dto.sys;
 
 /**
  * 用户角色
- * @author 64301325@qq.com
+ * @author xianxian
  */
 public class UserRoleDTO {
     public Long getId() {

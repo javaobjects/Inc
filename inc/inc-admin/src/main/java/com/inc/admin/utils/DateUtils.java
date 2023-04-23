@@ -14,7 +14,7 @@ public class DateUtils {
      * 转换日期格式
      * @param date
      * @param formatter
-     * @author 64301325@qq.com
+     * @author xianxian
      * @return
      */
     public static String format(Date date, String formatter) {

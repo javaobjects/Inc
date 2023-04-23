@@ -16,7 +16,7 @@ public interface MenuService {
 
 	/**
 	 * 登录用户的权限
-	 * @author 64301325@qq.com
+	 * @author xianxian
 	 * @param userId
 	 * @return
 	 */
