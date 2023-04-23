@@ -75,8 +75,14 @@ Windows
          |   |    |    |    |    |   +- constants -- 常量类
          |   |    |    |    |    |   +- context -- Spring Context 相关类，用于获取 Spring 上下文信息
          |   |    |    |    |    |   +- controller -- 控制器类，处理 HTTP 请求
+         |   |    |    |    |    |      +- biz -- 业务相关的控制器类
+         |   |    |    |    |    |      +- sys -- 系统相关的控制器类
          |   |    |    |    |    |   +- dao -- 数据访问对象类，用于访问数据库
+         |   |    |    |    |    |      +- biz -- 业务相关的数据访问对象类
+         |   |    |    |    |    |      +- sys --系统相关的数据访问对象类
          |   |    |    |    |    |   +- domain -- 实体类，对应数据库中的表
+         |   |    |    |    |    |      +- biz -- 业务相关的实体类
+         |   |    |    |    |    |      +- sys -- 系统相关的实体类
          |   |    |    |    |    |   +- dto -- 数据传输对象，用于 Controller 与 Service 层之间传输数据
          |   |    |    |    |    |      +- sys
          |   |    |    |    |    |          +- req -- 请求 DTO，封装 HTTP 请求参数
@@ -84,6 +90,10 @@ Windows
          |   |    |    |    |    |   +- filters -- 过滤器类，实现 HTTP 请求过滤
          |   |    |    |    |    |   +- intercepter -- 拦截器类，实现拦截器功能
          |   |    |    |    |    |   +- service -- 服务类，处理业务逻辑
+         |   |    |    |    |    |      +- biz -- 业务相关的服务类
+         |   |    |    |    |    |          +- impl -- 业务相关的服务实现类
+         |   |    |    |    |    |      +- sys -- 系统相关的服务类
+         |   |    |    |    |    |          +- impl -- 系统相关的服务实现类
          |   |    |    |    |    |   +- task -- 定时任务类
          |   |    |    |    |    |   +- utils -- 工具类
          |   |    |    |    |    |   +- vo -- 视图对象，用于封装视图数据
@@ -91,6 +101,11 @@ Windows
          |   |    +- resources
          |   |        +- mapper 
          |   |        |  +- sys --  Mybatis Mapper 接口，用于访问数据库
+         |   |        |     +- MenuMapper.xml --  菜单相关的 Mybatis Mapper 接口
+         |   |        |     +- RoleMapper.xml --  角色相关的 Mybatis Mapper 接口
+         |   |        |     +- RoleMenuMapper.xml --  角色菜单相关的 Mybatis Mapper 接口
+         |   |        |     +- UserMapper.xml --  用户相关的 Mybatis Mapper 接口。
+         |   |        |     +- UserRoleMapper.xml --  用户角色相关的 Mybatis Mapper 接口。
          |   |        +- application.yml -- 应用程序的配置信息，包括数据库连接、日志等
          |   |        +- application-dev.yml -- 开发环境配置文件
          |   |        +- application-pro.yml -- 生产环境配置文件
@@ -286,3 +301,5 @@ npm run lint
 22. [HTML，css，js，vue的简单介绍](https://blog.csdn.net/Fengkx518/article/details/122473012)
 23. [vue 项目html 与js,什么是VUE?VUE与JS的对比](https://blog.csdn.net/weixin_31509753/article/details/117944343)
 24. [vue和js区别是什么](https://m.php.cn/article/472327.html)
+25. [IDEA 必备设置](https://blog.csdn.net/YangCheney/article/details/105832062)
+26. [idea 中新建java类不显示后缀名？](https://m.php.cn/wenda/90256.html)
