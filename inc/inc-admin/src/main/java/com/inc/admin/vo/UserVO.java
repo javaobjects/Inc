@@ -3,7 +3,7 @@ package com.inc.admin.vo;
 import com.inc.admin.domain.sys.UserDO;
 
 /**
- * @author gaoyuzhe
+ * @author xianxian
  * @date 2017/12/15.
  */
 public class UserVO {

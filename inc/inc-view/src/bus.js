@@ -1,5 +1,5 @@
 /**
- * Created by inc.
+ * Created by xianxian
  */
 import Vue from 'vue'
 

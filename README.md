@@ -293,3 +293,20 @@ npm run lint
 24. [vue和js区别是什么](https://m.php.cn/article/472327.html)
 25. [IDEA 必备设置](https://blog.csdn.net/YangCheney/article/details/105832062)
 26. [idea 中新建java类不显示后缀名？](https://m.php.cn/wenda/90256.html)
+27. 什么叫构子函数？
+```
+钩子函数（hook function）是一种在特定事件或函数执行时自动执行的函数。在编程中，钩子函数可以让我们在程序执行特定任务时执行自己的代码。在Vue.js框架中，钩子函数也被称为生命周期函数。 
+ 
+Vue.js组件生命周期中包含多个不同的阶段，每个阶段都有对应的钩子函数，开发人员可以根据需要在不同阶段执行自定义的操作。例如，在组件被创建之前，可以使用beforeCreate钩子函数执行一些初始化操作；在组件DOM被创建之后，可以使用mounted钩子函数执行一些渲染和DOM操作。 
+ 
+以下是Vue.js组件生命周期钩子函数及对应的阶段： 
+ 
+- beforeCreate：实例刚被创建，数据观测和事件机制尚未初始化。 
+- created：实例已经完成了数据观测、属性计算等相关工作，可以访问data、computed、methods等属性。 
+- beforeMount：模板编译完成，但没有挂载到页面上。 
+- mounted：实例已经挂载到页面上，可以进行DOM操作等，常用于初始化页面数据等任务。 
+- beforeUpdate：数据更新之前调用，发生在虚拟DOM重新渲染和打补丁之前。可以在此钩子函数中进行一些状态管理或更新操作。 
+- updated：数据更新完成，虚拟DOM已经重新渲染和打补丁，可以进行DOM操作等，但要注意避免无限循环更新。 
+- beforeDestroy：实例即将销毁，可以在此钩子函数中进行资源释放、事件销毁等操作。 
+- destroyed：实例已经销毁，与实例完全解绑，可以进行一些垃圾回收等操作。
+```

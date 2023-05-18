@@ -1,5 +1,5 @@
 /**
- * Created by inc.
+ * Created by xianxian
  * 角色相关api
  */
 import * as API from './'

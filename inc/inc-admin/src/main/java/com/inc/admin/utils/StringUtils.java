@@ -1,7 +1,7 @@
 package com.inc.admin.utils;
 
 /**
- * @author inc
+ * @author xianxian
  */
 public class StringUtils extends org.apache.commons.lang3.StringUtils{
 }

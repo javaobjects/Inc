@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * 用户信息
- * @author inc
+ * @author xianxian
  */
 @RequestMapping("/test")
 @RestController

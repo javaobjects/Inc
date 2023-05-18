@@ -9,8 +9,8 @@ import java.util.Map;
 
 /**
  * 角色与菜单对应关系
- * @author chglee
- * @email 64301325@qq.com
+ * @author xianxian
+ * @email 511948469@qq.com
  * @date 2017-10-03 11:08:59
  */
 @Mapper

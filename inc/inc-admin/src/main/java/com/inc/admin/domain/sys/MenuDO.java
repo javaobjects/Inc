@@ -8,8 +8,8 @@ import java.util.Date;
 /**
  * 菜单管理
  * 
- * @author chglee
- * @email 64301325@qq.com
+ * @author xianxian
+ * @email 511948469@qq.com
  * @date 2018-03-09 15:30:54
  */
 public class MenuDO implements Serializable {

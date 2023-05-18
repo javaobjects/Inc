@@ -7,7 +7,7 @@ import net.sf.ehcache.Element;
 import org.springframework.util.ClassUtils;
 
 /**
- * @author tzb
+ * @author xianxian
  * @desc 缓存工具类
  * @date 2021-06-12 23:19:09
  */

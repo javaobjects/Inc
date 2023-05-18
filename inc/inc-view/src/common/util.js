@@ -1,5 +1,5 @@
 /**
- * Created by inc.
+ * Created by xianxian
  */
 var SIGN_REGEXP = /([yMdhsm])(\1*)/g
 var DEFAULT_PATTERN = 'yyyy-MM-dd'

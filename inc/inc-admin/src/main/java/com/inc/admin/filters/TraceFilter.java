@@ -21,7 +21,7 @@ import java.util.UUID;
 /**
  * @ClassName TraceFilter
  * @Description TODO
- * @Author renh
+ * @Author xianxian
  * @Date
  **/
 @Component //将此Filter交给Spring容器管理

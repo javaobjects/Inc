@@ -23,7 +23,7 @@ import java.util.Map;
 
 /**
  * 用户信息
- * @author inc
+ * @author xianxian
  */
 @RequestMapping("/user")
 @RestController

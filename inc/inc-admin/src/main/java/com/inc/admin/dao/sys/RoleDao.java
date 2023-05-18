@@ -8,8 +8,8 @@ import java.util.Map;
 
 /**
  * 角色
- * @author chglee
- * @email 64301325@qq.com
+ * @author xianxian
+ * @email 511948469@qq.com
  * @date 2017-10-02 20:24:47
  */
 @Mapper
