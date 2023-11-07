@@ -248,11 +248,13 @@ npm run lint
 用户名：admin
 密码：1
 #### 截图
+
 ![登录](./inc/readme/登录.png)
 ![增删改查](./inc/readme/增删改查列表.png)
 ![用户管理](./inc/readme/用户管理.png)
 ![角色管理](./inc/readme/角色管理.png)
 ![系统菜单](./inc/readme/系统菜单.png)
+![Postman测试http接口](./inc/readme/Postman测试http接口.png)
 
 #### 项目中需要说明的关键技术点
 

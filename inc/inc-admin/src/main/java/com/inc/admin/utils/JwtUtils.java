@@ -13,6 +13,22 @@ import java.util.Date;
  * @version V1.0
  */
 public class JwtUtils {
+    /**
+     * @methodName generateToken
+     * <p>
+     *    Description:
+     *    JWT加密
+     * </p> 
+     * @param: userToken
+     * @param: expire
+     * @return String
+     * @throws Exception 
+     * <p>Copyright: Copyright (c) 2017</p>
+     * <p>Company: www.baidudu.com</p>
+     * @author xianxian
+     * @Date 2023/11/8  3:21
+     * @version 1.0
+    */
     public static String generateToken(UserToken userToken, int expire) throws Exception {
         String token = Jwts.builder()
                 .setSubject(userToken.getUsername())
@@ -26,6 +42,21 @@ public class JwtUtils {
     }
 
 
+    /**
+     * @methodName getInfoFromToken
+     * <p>
+     *    Description:
+     *    JWT解密
+     * </p> 
+     * @param: token
+     * @return UserToken
+     * @throws Exception 
+     * <p>Copyright: Copyright (c) 2017</p>
+     * <p>Company: www.baidudu.com</p>
+     * @author xianxian
+     * @Date 2023/11/8  3:22
+     * @version 1.0
+    */
     public static UserToken getInfoFromToken(String token) throws Exception {
         Claims claims = Jwts.parser()
                 .setSigningKey(CommonConstants.JWT_PRIVATE_KEY).parseClaimsJws(token)
